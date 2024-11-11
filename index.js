@@ -1,2 +1,2 @@
 const { fileTest } = require('./file');
-fileTest();
+fileTest(); //
