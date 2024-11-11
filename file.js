@@ -1,1 +1,3 @@
-console.log('file_test change_1');
+exports.fileTest = () => {
+  console.log('file_test change_1');
+}

@@ -1,1 +1,2 @@
-console.log('index_test change_1');
+const { fileTest } = require('./file');
+fileTest();
