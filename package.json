@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "filejs": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "cd generator && npm install --dev && npm run build && rm -r node_modules",
+    "test": "echo test"
+  },
+  "dependencies": {
+    "generator": "file:./generator"
   },
   "author": "",
   "license": "ISC"

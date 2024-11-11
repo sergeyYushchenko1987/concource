@@ -1,2 +1,3 @@
-const { fileTest } = require('./file');
-fileTest(); //
+const { generator } = require('generator');
+
+console.log(generator());
