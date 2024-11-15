@@ -2,9 +2,9 @@
   "name": "concource",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
+  "main": "index.js",
   "scripts": {
-    "prepare": "cd users && npm install --dev && npm run build && rm -r node_modules",
+    "appsync:build": "cd users && npm install --dev && npm run build && rm -r node_modules",
     "test": "echo test"
   },
   "dependencies": {
