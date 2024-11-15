@@ -1,2 +1,2 @@
-const { generator } = require('users');
+const { generator } = require('appsync');
 console.log(generator());

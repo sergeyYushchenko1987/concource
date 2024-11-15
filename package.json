@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "appsync:build": "cd users && npm install --dev && npm run build && rm -r node_modules",
+    "appsync:build": "cd appsync && npm install --dev && npm run build && rm -r node_modules",
     "test": "echo test"
   },
   "dependencies": {
-    "users": "file:./users"
+    "appsync": "file:./appsync"
   },
   "author": "",
   "license": "ISC",
